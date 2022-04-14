@@ -6,7 +6,11 @@
 > This script uses HMMs identified by Chayan Kumar Saha and Gemma Atkinson; used in the analyses of Jimmy et al PNAS 2020.
 > Also, user can put any HMM model of their own in the HMM directory to scan the query protein sequence. 
 
+Install: 
 
+The python script requires conda installation. If user have conda installed previously, can use the following command to setup the environment required to run this script. 
+
+> bash build.sh
 
 Command: 
 
