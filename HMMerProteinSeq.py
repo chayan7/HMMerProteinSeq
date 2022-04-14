@@ -1,4 +1,4 @@
-#Author:Chayan
+#Author: Chayan Kumar Saha
 from Bio import SeqIO
 from Bio import Entrez
 from Bio.Seq import Seq
@@ -99,16 +99,6 @@ if args.accession:
 	with open (args.accession+'.faa','w') as fileOut:
 		print(seq_from_wp(args.accession), file=fileOut)
 
-'''
-if not args.accession:
-	fasIn=open(args.fasta, 'r').read().rstrip().split('>')
-	with open(dirName+'.faa', 'w') as fileOut:
-		for items in fasIn:
-			if items!='':
-				fastaID='>'+items.split('\n')[0]
-				sequence=textwrap.fill(items.split('\n')[1],80)
-				print(fastaID,sequence,sep='\n', file=fileOut)
-'''
 
 hmmList=[]
 for hmms in (glob.glob(localH+"*.hmm")):
