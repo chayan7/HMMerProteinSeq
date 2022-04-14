@@ -3,8 +3,8 @@
 
 
 > User can use protein accession (will be downloaded automatically from NCBI RefSeq database) or protein sequence in a fasta format as input. 
-> This script uses HMMs identified by Chayan Kumar Saha and Gemma Atkinson; used in the analyses of Jimmy et al PNAS 2020
-> User can put any HMM model of their own in the HMM directory to scan the query protein sequence. 
+> This script uses HMMs identified by Chayan Kumar Saha and Gemma Atkinson; used in the analyses of Jimmy et al PNAS 2020.
+> Also, user can put any HMM model of their own in the HMM directory to scan the query protein sequence. 
 
 
 
